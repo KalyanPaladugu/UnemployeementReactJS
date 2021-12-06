@@ -40,3 +40,51 @@
     - Staging (tracked) Area
     - Commit Area
 
+
++ Webdesigning
++ Webdevelopment
+
+
+### HTML
++ Hyper Text Markup Language
++ Elements
++ `.htm` or `.html`
++ Semantic Elements
+    - header
+    - nav
+    - article
+    - section
+    - aside
+    - footer
+    - table
+    - form
++ Block Level Elements
+    - aside
+    - article
+    - h1 to h6
+    - div
+    - footer
+    - header
+    - nav
+
++ Inline Elements
+
+    - input
+    - label
+    - button
+    - img
+    - a
+    - sup
+    - sub
+    - i
+    - sapn
+    
++ `ul` or `ol`
+
+##### Practice
++ figure
++ span
++ audio
++ article
++ section
++ aside
