@@ -1,0 +1,28 @@
+h3 {
+    background-color: cyan;
+}
+
+* {
+    background-color: rgb(252, 9, 9);
+}
+
+/* #test {
+    font-size: 5px;
+   } */
+
+h3,h4 {
+    font-style: italic;
+    font-size: 40px;
+}
+
+.subHeading {
+font-size: 100px;
+}
+
+.subHeading .demo {
+    font-size: 150px;
+}
+
+.main .demo {
+    font-size: 50px;
+}

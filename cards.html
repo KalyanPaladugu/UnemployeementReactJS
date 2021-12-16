@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Cards ::</title>
+    <style>
+        .card {
+            border: 1px solid lightgray;
+            width: 18rem;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 4px 4px 2px -4px #000;
+            margin-top: 10px;
+        }
+        .card img {
+            width: 100%;
+            opacity: 0.5;
+            border-radius: 10px 10px 0px 0px;
+        }
+        h2 {
+            background-color: blue;
+            opacity: 0.5;
+            color: red;
+        }
+        .cardList {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    
+        @media screen and (min-width:320px) and (max-width:767px)
+         {
+          .card {
+              width: 100%;
+          }  
+         .list {
+             display: flex;
+             flex-wrap: wrap;
+         }
+
+        }
+        @media screen and (min-width:768px) and (max-width:991px)
+         {
+          .card {
+              width: 48%;
+          }  
+        .list h2 {
+            color: white;
+            background-color: black;
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+   <div class="cardList">
+    <div class="card">
+        <img src="./pic.webp" alt="">
+        <div class="list">
+            <h2>Rahul Chitrapu</h2>
+            <hr>
+        <a href="tel:9768543212">9768543212</a>
+        </div>
+        <h4>Junior Software Developer</h4>
+        
+    </div>
+    <div class="card">
+        <img src="./pic.webp" alt="">
+        <h2>Rahul Chitrapu</h2>
+        <a href="tel:9768543212">9768543212</a>
+        <h4>Junior Software Developer</h4>
+        
+    </div>
+    <div class="card">
+        <img src="./pic.webp" alt="">
+        <h2>Rahul Chitrapu</h2>
+        <a href="tel:9768543212">9768543212</a>
+        <h4>Junior Software Developer</h4>
+        
+    </div>
+    <div class="card">
+        <img src="./pic.webp" alt="">
+        <h2>Rahul Chitrapu</h2>
+        <a href="tel:9768543212">9768543212</a>
+        <h4>Junior Software Developer</h4>
+        
+    </div>
+   </div> 
+   
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: CSS Positions ::</title>
+    <style>
+        .parent {
+            background-color:red;
+            
+            
+            height: fit-content;
+        }
+        .child1 {
+            border: 3px solid blue;
+            color: rgb(19, 1, 1);
+            background-color: chartreuse;
+            position: absolute;
+            top: 100px;
+            left: 25px;
+            
+            
+        }
+        .child2 {
+            border: 3px solid yellow;
+            background-color: cyan;
+            color: darkblue;
+        }
+        .child3 {
+            border:3px solid rgb(241, 241, 245);
+            background-color: rgb(243, 21, 176);
+            position: relative;
+            color: floralwhite;
+        }
+
+        .display1 {
+            background-color: gray;
+            color: honeydew;
+            /* display: none; */
+            /* display: inline; */
+            /* display: block; */
+            display: inline-block;
+            /* height: 100px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        Parent
+        <div class="child1">Child1</div>
+        <div class="child2">Child2</div>
+        <div class="child3">Child3</div>
+       
+        
+
+
+    </div>
+
+    <span class="display1">Info1</span>
+    <span class="display2">Info2</span>
+</body>
+</html>
