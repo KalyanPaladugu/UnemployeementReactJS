@@ -12,7 +12,7 @@
     + Php
     + Java
     + Python
-        - Falsk
+        - Flask
         - Django
     + Nodejs
 
